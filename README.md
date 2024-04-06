@@ -1,4 +1,4 @@
-# My-Python-codes that I am proud of
+# My-Python-codes that I am starting with and am proud of
 
 ## Farenheit/Celsius
 # Converting Farenheit/Celsius
