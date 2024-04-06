@@ -1,4 +1,19 @@
 # My-Python-codes that I am proud of
+
+## Farenheit/Celsius
+# Converting Farenheit/Celsius
+```python
+define_conversion = input('What do you want to convert? From °C or from °F (enter C or F): ')
+
+if define_conversion == 'C':
+  temperature_value_C = float(input('Enter the value in °C you want to convert: '))
+  print(f'{temperature_value_C}°C equals {temperature_value_C * 9/5 + 32}°F')
+
+else:
+  temperature_value_F = float(input('Enter the value in °F you want to convert: '))
+  print(f'{temperature_value_F}°F equals {(temperature_value_F - 32)/1.8}°C')
+```
+
 ## Persons short profile
 ```python
 # general information
