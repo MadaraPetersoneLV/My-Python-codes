@@ -1,4 +1,39 @@
-# My-Python-codes that I am starting with and am proud of
+# Python-codes-selfmade and for learning
+
+## import, while True, try-except, continue, count list
+```py
+import random
+random_number = random.randint(1, 101)
+print(f"Random number is: {random_number}")
+
+number_of_guesses = []
+
+while True:
+  guess = input('guess number 1-100. Quit = stop ')
+
+  if guess == "stop":
+    print("stop game")
+    break
+  
+  try:
+    guess = int(guess)
+  except:
+    print("enter a number or STOP")
+    continue
+  number_of_guesses.append(guess)
+
+  if guess == random_number:
+    print("correct")
+    break
+
+  else:
+    if guess > random_number:
+      print("lower")
+    else:
+      print("higher")
+  
+  print(f"Times guessed: {len(number_of_guesses)}")
+```
 
 ## Farenheit/Celsius
 # Converting Farenheit/Celsius
