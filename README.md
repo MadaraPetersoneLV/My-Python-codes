@@ -1,5 +1,25 @@
 # Python-codes-selfmade and for learning
 
+# 
+```py
+# Dictionary
+# Create a dictionary
+dictionary = {} #curly braces method
+another_dictionary = dict() #dict method
+
+dictionary == another_dictionary
+dictionary = {} #curly braces method
+
+dictionary['key1'] = 'value1' #add an element to the dictionary
+dictionary['key2'] = 'value2'
+dictionary['key2'] #use the key to get to the element
+# storing a list in a dictionary
+dictionary['datorium_list'] = ['Python', 'Java', 'C#']
+dictionary
+dictionary['datorium_list'] = [1,2,3]
+#we can not have two different values with the same key
+```
+
 ## coin toss game - first draft
 ```py
 import random
