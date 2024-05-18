@@ -1,5 +1,33 @@
 # Python-codes-selfmade and for learning
 
+## coin toss game - first draft
+```py
+import random
+
+print("Play COIN TOSS game")
+
+correct_guesses = []
+total_number_of_guesses = []
+
+while True:
+  heads_or_tails = random.randint(0, 1)
+  print(f"Heads or tails coin flip: {heads_or_tails}") # will be hidden later
+
+  guess = input("heads (1) or tails (0) or 'stop' to quit: ")
+  
+  if guess == "stop":
+    print("Game stopped.")
+    break
+
+  elif guess == heads_or_tails:
+    print("Yes")
+    continue
+
+  else:
+    print("No")
+    continue
+```
+
 ## import, while True, try-except, continue, count list
 ```py
 import random
